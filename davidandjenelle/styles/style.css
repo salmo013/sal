@@ -1,0 +1,195 @@
+html{
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    padding:0%;
+    margin:0%;
+    
+  }
+.banner{
+	height:800px;
+	background-image: url("../images/pups.jpeg");
+	color:white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+header h1{
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	color:white; 
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+figcaption{
+	font-family: 'Montserrat', sans-serif;
+	padding:15px;
+	color: #d1cebd;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	padding-bottom: 20px;
+}
+a:hover{
+	color:#d1cebd;
+}
+.chewie{
+	display:flex;
+	flex-direction: row;
+	background-color: white;
+	min-height:600px;
+	justify-content: center;
+
+}
+.chewie img{
+	padding-top: 20px;
+}
+.chewie1{
+	text-align: center;
+	margin:50px;
+	border-radius: 8px;
+	-webkit-box-shadow: 10px 10px 48px -17px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 48px -17px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 48px -17px rgba(0,0,0,0.75);
+	background-color: #ffffff;
+	
+}
+.chewie1 p{
+	padding:50px;
+}
+.puppy{
+	display:flex;
+	flex-direction: row;
+	background-color:#d1cebd;
+	min-height:600px;
+	justify-content: center;
+
+}
+.puppy1{
+	text-align: center;
+	background-color: #ffffff;
+	width: 970px;
+	margin:50px;
+	border-radius: 8px;
+	-webkit-box-shadow: 10px 10px 48px -17px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 48px -17px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 48px -17px rgba(0,0,0,0.75);
+}
+.puppy1{
+	padding:50px;
+}
+.family{
+	display:flex;
+	flex-direction: row;
+	background-color:#f1f3f4;
+	min-height:600px;
+	justify-content: center;
+
+}
+.family1{
+	text-align: center;
+	background-color: #ffffff;
+	width: 950px;
+	margin:50px;
+	border-radius: 8px;
+	-webkit-box-shadow: 10px 10px 48px -17px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 48px -17px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 48px -17px rgba(0,0,0,0.75);
+}
+.family1{
+	padding:50px;
+}
+footer{
+	background-color:#323232 ;
+	color:white;
+}
+footer p{
+	padding: 10px;
+}
+
+  h2{
+    color: #5d5b6a;
+  }
+
+  header{
+      min-height:70px ; 
+      
+      padding-top: 20px;
+      border-width: 1px;
+      text-align: center;
+      font-size: 3em;
+    }
+    hr{
+      margin: auto;
+      width:85%;
+    }
+  
+ main{
+     display:flex;
+     flex-direction:column;
+ }
+section{
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+     margin:auto;
+     padding-top:50px;
+     padding-bottom: 50px;
+ 
+ }
+ .chewie1{
+     
+     width: 440px;
+ }
+ .chewie2{
+     
+     width: 43%;
+     height:inherit;
+     margin-left: 30px;
+     line-height: 25px;
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-right: 20px;
+     background-color: #fff;
+     border-radius: 4px;
+
+ }
+.puppies{
+  padding-top: 50px;
+  
+ flex-direction: column;
+font-size: 2em;
+justify-content: center;
+align-items: center; 
+
+ }
+
+ #photo{
+
+width:450px;
+ }
+ footer{
+   
+   text-align: center;
+ }
+
+
+
+section .puppies{
+  padding-bottom: 0px;
+}
+.banner{
+	text-align: center;
+}
+ 
